@@ -1,0 +1,210 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    all: unset;
+    background-color: #202020;
+    color: #ffffff;
+    font-family: 'calibri';
+}
+
+.container-c {
+    background: #252525;
+    width: 100%;
+    border-bottom: 1px solid #323232;
+    margin-bottom: 32px;
+}
+
+.container,
+.container-s {
+    width: 70%;
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+
+.container .cover {
+    width: 100%;
+    height: 45vh;
+}
+
+.container .cover img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.user-info {
+    display: flex;
+    /* border: 1px solid #323232; */
+    height: auto;
+    padding: 16px;
+}
+
+.user-info .user-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.user-info .user-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.user-info .user-id {
+    color: #fff;
+    padding: 0px 32px;
+}
+
+.user-info .user-id h1 {
+    font-family: 'Calibri';
+    letter-spacing: 2PX;
+}
+
+.user-info .user-id em {
+    color: #8a8a8a;
+    letter-spacing: 1px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.btns .btn {
+    background: #00000000;
+    border: 1px solid #0077ff;
+    color: #0077ff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+
+.btns .btn:hover {
+    background: #0077ff;
+    color: #fff;
+}
+
+.container-s {
+    background: #252525;
+    border-radius: 10px;
+    border: 1px solid #323232;
+    padding: 16px 32px;
+    margin-bottom: 32px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: 1 1 100px;
+    margin-bottom: 18px;
+}
+
+/* row audio */
+.row-audio {
+    display: block;
+    margin-bottom: 18px;
+}
+
+/* image card style */
+.img-card {
+    background: #202020;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid #32323200;
+    transition: all .2s ease-in;
+}
+
+.img-card:hover {
+    opacity: .7;
+    border: 1px solid #323232;
+}
+
+.img-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* container-s links */
+.container-s a {
+    color: #0077ff;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.container-s a:hover {
+    color: #0077ffb5;
+    text-decoration: underline;
+}
+
+/* video card style */
+.video-card {
+    background: #202020;
+    width: 450px;
+    height: 255px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+.video-card video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* audio card style */
+.audio-card {
+    /* background: #202020; */
+    border: 1px solid #323232;
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0px 10px 16px 10px;
+    display: block;
+    padding: 16px;
+}
+
+.audio-card:hover {
+    background: #232323;
+}
+
+.audio-card .artiste {
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+
+.audio-card .artiste .artiste-name {
+    color: #fff;
+    font-weight: 800;
+}
+
+.audio-card .artiste .artiste-date {
+    color: #8a8a8a;
+}
+
+.audio-card .artiste-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #252525;
+    margin-right: 16px;
+}
+
+.audio-card .artiste-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+audio {
+    width: 100%;
+}
